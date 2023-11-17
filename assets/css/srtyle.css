@@ -7,10 +7,10 @@
 
 header{
     width: 100%;
-    height: 500px;
     border: 1px solid red;
-    background-color: lightgray;
+    background-color:#3967E2;
     padding-top: 1%;
+    height:400px;
 
 
 }
@@ -49,7 +49,7 @@ div.bar{
     justify-content: space-around;
     width: 50%;
     align-items: center;
-    background-color: lightgrey;
+    background-color:#3967E2;
 
 
 
@@ -61,16 +61,17 @@ span{
     width: 10%;
 }
 
-div.button{
+.button1{
 border-radius: 100px;
+height: 40px;
 
 }
 
 section.scrittagrande{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
-    margin: 0 10% 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: 250px;
     align-items: center;
     flex-direction: column;
@@ -109,5 +110,135 @@ button{
 }
 
 
+main{
+    background-color: lightgray;
+}
+section.centropari{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    width: 100%;
+        background-color: white ;
+}
 
+section.centrodispari{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    width: 100%;
+        background-color:lightgrey ;
+}
+
+section.centrodispari .ultima{
+    border: 1px solid red;
+    height: 700px;
+    display: flex;
+    width: 100%;
+    background-color:lightgrey ;
+}
+    
+.righe{
+    border: 1px solid red;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.img1{
+    background-color: sandybrown;
+    height: 300px;
+    width: 60%;
+}
+
+aside{
+    border: 1px solid red;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+aside{
+    border: 1px solid red;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px ;
+}
+
+.titolo{
+    background-color: sandybrown;
+    height: 50px;
+    width: 40%;
+}
+
+.riga4{
+    border: 1px solid red;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    
+}
+
+p{
+    background-color:sandybrown;
+    width:40%;
+    height: 200px;
+}
+
+div.testosopra{
+    border: 1px solid red;
+    width:60%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+div.testosotto{
+    border: 1px solid red;
+    width:60%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.sopra1{
+    background-color:sandybrown;
+    width: 90%;
+    height: 40px;
+}
+
+.sotto1{
+    background-color:sandybrown;
+    width: 90%;
+    height: 50px;
+}
+
+.sopra2{
+    background-color:sandybrown;
+    width: 30%;
+    height: 40px;
+}
+
+.sotto2{
+    background-color:sandybrown;
+    width: 15%;
+}
 
