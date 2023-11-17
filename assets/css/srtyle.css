@@ -7,10 +7,10 @@
 
 header{
     width: 100%;
-    height: 500px;
     border: 1px solid red;
     background-color: lightgray;
     padding-top: 1%;
+    height:400px;
 
 
 }
@@ -67,10 +67,10 @@ border-radius: 100px;
 }
 
 section.scrittagrande{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
-    margin: 0 10% 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: 250px;
     align-items: center;
     flex-direction: column;
@@ -109,5 +109,73 @@ button{
 }
 
 
+main{
+    background-color: lightgray;
+}
+section.centro{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+    
+.righe{
+    border: 1px solid red;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    align-items: center;
+}
 
+.img1{
+    background-color: sandybrown;
+    height: 300px;
+    width: 60%;
+}
+
+aside{
+    border: 1px solid red;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+aside{
+    border: 1px solid red;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px ;
+}
+
+.titolo{
+    background-color: sandybrown;
+    height: 50px;
+    width: 40%;
+}
+
+.riga4{
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    background-color:sandybrown;
+    width:40%;
+    height: 200px;
+}
 
