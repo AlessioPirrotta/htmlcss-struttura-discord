@@ -113,6 +113,7 @@ button{
 main{
     background-color: lightgray;
 }
+<<<<<<< HEAD
 section.centropari{
     border: 1px solid red;
     height: 500px;
@@ -147,6 +148,26 @@ section.centrodispari .ultima{
     align-items: center;
 }
 
+=======
+section.centro{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+    
+.righe{
+    border: 1px solid red;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    align-items: center;
+}
+
+>>>>>>> debd4a6a3df6cefed98b77cdaaf2c25cb5a33353
 .img1{
     background-color: sandybrown;
     height: 300px;
@@ -183,12 +204,19 @@ aside{
 .riga4{
     border: 1px solid red;
     width: 100%;
+<<<<<<< HEAD
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 70px;
+=======
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> debd4a6a3df6cefed98b77cdaaf2c25cb5a33353
     
 }
 
@@ -197,6 +225,7 @@ p{
     width:40%;
     height: 200px;
 }
+<<<<<<< HEAD
 
 div.testosopra{
     border: 1px solid red;
@@ -241,4 +270,6 @@ div.testosotto{
     background-color:sandybrown;
     width: 15%;
 }
+=======
+>>>>>>> debd4a6a3df6cefed98b77cdaaf2c25cb5a33353
 
